@@ -1,0 +1,20 @@
+---
+title: "renv-python"
+author: "Qiushi"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+---
+
+```{r, include = FALSE}
+library(bslib)
+library(downlit)
+library(xml2)
+library(reticulate)
+```
+
+# Preface
+
+```{python}
+import pandas as pd
+```
+
